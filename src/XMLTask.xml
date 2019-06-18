@@ -1,5 +1,7 @@
 <data>
-	<dir name="main" created="18.06.2019" size="2976" />
+	<dir name="main" created="18.06.2019" size="3105" />
+		<file name="FileWork.java" created="18.06.2019" size="2449" />
+		<file name="XMLTask.java" created="18.06.2019" size="656" />
 	<dir name="test" created="18.06.2019" size="0" />
 	<file name="XMLTask.xml" created="18.06.2019" size="0" />
 </data>

@@ -23,11 +23,12 @@ class FileWork {
     private static void folderContent(File directory, Writer writer, BasicFileAttributes attributes, SimpleDateFormat dateFormat) throws Exception{
         for (File file : directory.listFiles()) {
             if (file.isFile()){
+                attributes = Files.readAttributes(file.toPath(), BasicFileAttributes.class);
                 writer.write("\t\t<file name=\"" + file.getName() +
                         "\" created=\"" + dateFormat.format(new Date(attributes.creationTime().toMillis())) +
                         "\" size=\"" + attributes.size() + "\" />\n");
             } else{
-                folderSize(file);
+                folderContent(file, writer, attributes, dateFormat);
             }
         }
     }
