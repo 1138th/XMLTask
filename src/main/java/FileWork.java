@@ -65,7 +65,7 @@ class FileWork {
         //char: 48-122 - numbers, letters and some special symbols
         for (int lines = 0; lines < numberOfLines; lines++){
             for (int symbol = 0; symbol < symbolsInLine; symbol++){
-                writer.write(((char) (rand.nextInt(74) + 48)) + " ");
+                writer.write((char) (rand.nextInt(74) + 48));
             }
             writer.write("\n");
         }
