@@ -1,7 +1,19 @@
 <data>
-	<dir name="main" created="18.06.2019" size="3105" />
-		<file name="FileWork.java" created="18.06.2019" size="2449" />
-		<file name="XMLTask.java" created="18.06.2019" size="656" />
+	<dir name="main" created="18.06.2019" size="4927" />
+		<file name="FileWork.java" created="18.06.2019" size="4234" />
+		<file name="XMLTask.java" created="18.06.2019" size="693" />
+	<dir name="TaskFolder1" created="18.06.2019" size="65712" />
+		<file name="TaskFile11.txt" created="18.06.2019" size="24187" />
+		<file name="TaskFile12.txt" created="18.06.2019" size="10739" />
+		<file name="TaskFile13.txt" created="18.06.2019" size="30786" />
+	<dir name="TaskFolder2" created="18.06.2019" size="72598" />
+		<file name="TaskFile21.txt" created="18.06.2019" size="23032" />
+		<file name="TaskFile22.txt" created="18.06.2019" size="20838" />
+		<file name="TaskFile23.txt" created="18.06.2019" size="28728" />
+	<dir name="TaskFolder3" created="18.06.2019" size="70114" />
+		<file name="TaskFile31.txt" created="18.06.2019" size="23503" />
+		<file name="TaskFile32.txt" created="18.06.2019" size="13488" />
+		<file name="TaskFile33.txt" created="18.06.2019" size="33123" />
 	<dir name="test" created="18.06.2019" size="0" />
 	<file name="XMLTask.xml" created="18.06.2019" size="0" />
 </data>
