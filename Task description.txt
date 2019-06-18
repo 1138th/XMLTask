@@ -1,0 +1,19 @@
+Написать программу, создающую XML-документ с содержимым текущего каталога в следующем виде (см. ниже).
+Для подкаталогов посчитать их реальный размер.
+
+<data>
+    <file name="file1.ext" created="01.01.2001" size="234" />
+    <file name="file2.ext" created="04.02.2007" size="23434" />
+    <dir name="Dir1" created="24.07.2004" size="350">
+        <file name="file3.ext" created="01.01.2001" size="100" />
+        <file name="file4.ext" created="01.01.2001" size="100" />
+        <file name="file5.ext" created="01.01.2001" size="100" />
+        <dir name="Dir2" created="24.07.2004" size="20">
+            <file name="file7.ext" created="01.01.2001" size="10" />
+            <file name="file8.ext" created="01.01.2001" size="10" />
+        </dir>
+        <dir name="Dir3" created="24.07.2004" size="10">
+            <file name="file7.ext" created="01.01.2001" size="10" />
+        </dir>
+    </dir>
+</data>
